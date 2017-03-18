@@ -1,7 +1,15 @@
 BGuitar = {
-g,8 d bes c'8 ~ c'8 bes d c'8 ~ c'8 bes d c'8 ~ c'8 bes d8 <f a>8 ~
-<f a>4 <f a>8 <f a> <f a>  <f bes>4 <f a>8 ~
-<f a>1
+%g,8 d bes c'8 ~ c'8 bes d c'8 ~ c'8 bes d c'8 ~ c'8 bes d8 <f a>8 ~
+<<
+{
+r8 d bes c'8 ~ c'8 bes ~ bes c'8 ~ c'8 bes ~ bes c'8 ~ c'8 bes ~ bes <f a>8 ~
+}\\{
+g,2 g,4 d4  g,4 d4 g,4 d4
+}
+>>
+
+<f a>8 f, <f a>8 <f a> <f a>  <f bes>8 f, <f a>8 ~
+<f, f a>1
 
 g,8 d bes c'8 ~ c'8 bes d c'8 ~ c'8 bes d d'8 ~ d'8 c' bes <f a>8 ~
 <f a>4 <f a>8 <f a> <f a> <f bes>4 <f a c'>8 ~
