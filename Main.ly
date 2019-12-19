@@ -21,7 +21,7 @@
 %\unfoldRepeats
 \new StaffGroup <<
   \new Staff \with {
-   instrumentName = \markup {\column {"Lead" \line {"Guitar"}}}
+   instrumentName = \markup {\column {{"Guitar"}}}
    \clef "treble_8"
   }{
    \key f \major
@@ -37,29 +37,6 @@
 
   }
 
-% \new Staff \with {
-%  instrumentName = \markup {\column {"Rhythm" \line {"Guitar"}}}
-%  \clef "treble_8"
-%  \key a \minor
-%  }{
-%  \time 3/4 
-%  \time 3/4 
-%  \tempo 4 = 100
-%   \IntroRhythmGuitar
-%  } % Staff (Guitar)
-%  \new Staff {
-%   \set Staff.instrumentName = #"Bass" 
-%   \clef "bass"
-%   \IntroBass
-%   \SectionABass
-%   \SectionBBass
-%   \SectionABass
-%   \SectionCBass
-%   \SectionBBass
-%   \SectionABass
-%   \SectionCBass
-%   \CodaBass
-%  }
 
  >> % StaffGroup
  \layout {
